@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Materiais de Construção</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-orange sticky-top">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="HM Materiais de Construção"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sobre Nós</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="src/img/carrinho.jpg" class="d-block w-100" alt="Promoção 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Promoção 1</h5>
+                        <p>Descrição da Promoção 1</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/contato-orcamento.svg" class="d-block w-100" alt="Promoção 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Promoção 2</h5>
+                        <p>Descrição da Promoção 2</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/cimento.svg" class="d-block w-100" alt="Promoção 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Promoção 3</h5>
+                        <p>Descrição da Promoção 3</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section class="container mt-5">
+            <h2 class="text-center">Produtos em Destaque</h2>
+            <div class="row produtos-container">
+                <!-- Produtos serão inseridos aqui dinamicamente -->
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 class="text-center">Categorias</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#" class="category-link">Ferramentas</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="category-link">Materiais de Construção</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="category-link">Tintas</a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="category-link">Elétrica</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 class="text-center">Depoimentos de Clientes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Ótima loja, com produtos de qualidade!"</p>
+                        <footer class="blockquote-footer">João Silva</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Atendimento excelente e entrega rápida!"</p>
+                        <footer class="blockquote-footer">Maria Fernandes</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Preços competitivos e muita variedade!"</p>
+                        <footer class="blockquote-footer">Carlos Souza</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 class="text-center">Assine nossa Newsletter</h2>
+            <form class="form-inline justify-content-center">
+                <div class="form-group mb-2">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Assinar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-orange text-white text-center py-3">
+        <p>&copy; 2024 HM Materiais de Construção. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="text-white">Política de Privacidade</a>
+            <span>|</span>
+            <a href="#" class="text-white">Termos de Uso</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('http://localhost:3000/api/produtos')
+                .then(response => response.json())
+                .then(data => {
+                    const produtosContainer = document.querySelector('.produtos-container');
+                    produtosContainer.innerHTML = '';
+
+                    data.forEach(produto => {
+                        const produtoCard = `
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="${produto.imagem}" class="card-img-top" alt="${produto.nome}">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${produto.nome}</h5>
+                                        <p class="card-text">${produto.descricao}</p>
+                                        <p class="card-text">R$ ${produto.preco.toFixed(2)}</p>
+                                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        produtosContainer.innerHTML += produtoCard;
+                    });
+                })
+                .catch(error => console.error('Erro ao buscar produtos:', error));
+        });
+    </script>
+</body>
+</html>

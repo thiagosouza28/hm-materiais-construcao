@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.bg-orange {
+    background-color: #ff8c00 !important;
+}
+
+header .navbar-brand img {
+    height: 50px;
+    
+}
+
+.carousel-item {
+    height: 60vh;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section {
+    padding: 40px 0;
+    background-image: url(src/img/fundo.svg);
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.category-link {
+    display: block;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.category-link:hover {
+    background-color: #e9ecef;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
